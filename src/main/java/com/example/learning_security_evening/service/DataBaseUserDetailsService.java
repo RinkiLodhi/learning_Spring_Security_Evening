@@ -1,14 +1,12 @@
 package com.example.learning_security_evening.service;
 
 import java.util.stream.Collectors;
-
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
 import com.example.learning_security_evening.model.AppUser;
 import com.example.learning_security_evening.model.Role;
 import com.example.learning_security_evening.repository.UserRepository;
